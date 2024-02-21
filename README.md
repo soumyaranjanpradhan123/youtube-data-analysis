@@ -2,6 +2,14 @@
 
 This project involves the creation of a data pipeline for processing YouTube analytics data. The pipeline includes data ingestion from Kaggle datasets, data cleansing using AWS Glue, and storage in an S3 bucket. Additionally, it covers the process of querying the cleansed data using Amazon Athena.
 
+## Architecture Diagram
+<img src="architecture.jpeg">
+
+
+##kaggle dataset link
+
+https://www.kaggle.com/datasets/datasnaek/youtube-new
+
 ## Project Components
 
 1. **Data Ingestion:**
@@ -64,10 +72,3 @@ FROM your_cleansed_table
 ORDER BY likes DESC
 LIMIT 10;
 
-## Architecture Diagram
-<img src="architecture.jpeg">
-
-
-##kaggle dataset link
-
-https://www.kaggle.com/datasets/datasnaek/youtube-new
